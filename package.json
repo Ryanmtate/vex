@@ -1,0 +1,21 @@
+{
+  "name": "vex",
+  "version": "0.0.1",
+  "description": "Module for setting up VΞX environment in node applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "VΞX",
+    "Ethereum",
+    "Venture",
+    "Equity",
+    "Exchange"
+  ],
+  "author": "Ryan Tate",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^0.13.0"
+  }
+}
