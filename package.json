@@ -1,10 +1,10 @@
 {
-  "name": "vex",
+  "name": "vex-module",
   "version": "0.0.1",
   "description": "Module for setting up VΞX environment in node applications",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "keywords": [
     "VΞX",
@@ -16,6 +16,7 @@
   "author": "Ryan Tate",
   "license": "ISC",
   "dependencies": {
+    "easy-ipc": "^0.2.2",
     "web3": "^0.13.0"
   }
 }

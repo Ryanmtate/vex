@@ -1,0 +1,15 @@
+=============== Oct 12, 2015 (PDT) ===============
+16:45:51.225356 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:45:51.226697 db@open opening
+16:45:51.226777 journal@recovery F·1
+16:45:51.226906 journal@recovery recovering @3
+16:45:51.288387 mem@flush created L0@5 N·24458 S·314KiB "n:\x00..ail,v29695":"n:\xff..ing,v11634"
+16:45:51.289495 db@janitor F·4 G·0
+16:45:51.289512 db@open done T·62.802737ms
+16:45:52.016995 table@compaction L0·2 -> L1·0 S·481KiB Q·33899
+16:45:52.030887 table@build created L1@8 N·2961 S·166KiB "n:\x00..ver,v1327":"version,v1"
+16:45:52.031137 table@compaction committed F-1 S-315KiB Ke·0 D·30882 T·14.101054ms
+16:49:38.152118 table@remove removed @5
+16:49:38.152276 table@remove removed @2
+16:49:38.152309 db@close closing
+16:49:38.152525 db@close done T·211.269µs
