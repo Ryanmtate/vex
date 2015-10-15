@@ -1,9 +1,9 @@
-=============== Oct 12, 2015 (PDT) ===============
-16:45:49.055340 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-16:45:49.055941 db@open opening
-16:45:49.055990 journal@recovery F·1
-16:45:49.056118 journal@recovery recovering @6
-16:45:49.059174 db@janitor F·2 G·0
-16:45:49.059199 db@open done T·3.250454ms
-16:49:38.199460 db@close closing
-16:49:38.199549 db@close done T·85.438µs
+=============== Oct 15, 2015 (PDT) ===============
+11:07:33.902712 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:07:33.902794 db@open opening
+11:07:33.902826 journal@recovery F·1
+11:07:33.902903 journal@recovery recovering @32
+11:07:33.904060 db@janitor F·2 G·0
+11:07:33.904073 db@open done T·1.273341ms
+11:09:14.203546 db@close closing
+11:09:14.203595 db@close done T·47.406µs

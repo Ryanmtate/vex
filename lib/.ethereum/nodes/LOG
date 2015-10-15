@@ -1,32 +1,15 @@
-=============== Oct 12, 2015 (PDT) ===============
-16:58:24.430831 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-16:58:24.431005 db@open opening
-16:58:24.431056 journal@recovery F·1
-16:58:24.431202 journal@recovery recovering @6
-16:58:24.453921 mem@flush created L0@9 N·9373 S·164KiB "n:\x00..ail,v36707":"n:\xff..ing,v37489"
-16:58:24.456623 db@janitor F·4 G·0
-16:58:24.456641 db@open done T·25.628544ms
-16:58:25.961367 table@compaction L0·1 -> L1·1 S·330KiB Q·43307
-16:58:25.969037 table@build created L1@12 N·3079 S·172KiB "n:\x00..ver,v1327":"version,v1"
-16:58:25.969340 table@compaction committed F-1 S-157KiB Ke·0 D·9255 T·7.920756ms
-17:16:02.903168 mem@flush N·44088 S·3MiB
-17:16:02.934007 mem@flush created L0@14 N·44088 S·472KiB "n:\x00..ail,v86372":"n:\xff..ing,v45280"
-17:16:02.934313 mem@flush committed F·1 T·31.080189ms
-17:16:02.934747 journal@remove removed @10
-17:16:05.161648 table@compaction L0·1 -> L1·1 S·645KiB Q·87427
-17:16:05.178689 table@build created L1@15 N·3268 S·185KiB "n:\x00..ver,v1327":"version,v1"
-17:16:05.178868 table@compaction committed F-1 S-460KiB Ke·0 D·43899 T·17.176084ms
-17:34:11.812444 mem@flush N·44085 S·3MiB
-17:34:11.846417 mem@flush created L0@17 N·44085 S·472KiB "n:\x00..ail,v125121":"n:\xff..ing,v91263"
-17:34:11.846579 mem@flush committed F·1 T·34.08817ms
-17:34:11.846991 journal@remove removed @13
-17:34:16.173335 table@compaction L0·1 -> L1·1 S·657KiB Q·131516
-17:34:16.189803 table@build created L1@18 N·3386 S·192KiB "n:\x00..ver,v1327":"version,v1"
-17:34:16.190088 table@compaction committed F-1 S-465KiB Ke·0 D·43967 T·16.708236ms
-17:52:42.316312 mem@flush N·44092 S·3MiB
-17:52:42.346898 mem@flush created L0@20 N·44092 S·474KiB "n:\x00..ail,v173318":"n:\xff..ong,v170517"
-17:52:42.347105 mem@flush committed F·1 T·30.758126ms
-17:52:42.347510 journal@remove removed @16
-17:52:44.467499 table@compaction L0·1 -> L1·1 S·666KiB Q·175581
-17:52:44.484993 table@build created L1@21 N·3478 S·196KiB "n:\x00..ver,v1327":"version,v1"
-17:52:44.485247 table@compaction committed F-1 S-470KiB Ke·0 D·44000 T·17.699539ms
+=============== Oct 15, 2015 (PDT) ===============
+11:09:21.891830 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:09:21.891980 db@open opening
+11:09:21.892033 journal@recovery F·1
+11:09:21.892157 journal@recovery recovering @79
+11:09:21.899503 mem@flush created L0@82 N·2655 S·65KiB "n:\x00..ail,v519249":"n:\xff..ail,v518483"
+11:09:21.901062 db@janitor F·4 G·0
+11:09:21.901078 db@open done T·9.0906ms
+11:09:23.581932 table@compaction L0·1 -> L1·1 S·342KiB Q·521148
+11:09:23.590180 table@build created L1@85 N·4843 S·277KiB "n:\x00..ing,v494758":"version,v1"
+11:09:23.590452 table@compaction committed F-1 S-65KiB Ke·0 D·2652 T·8.472411ms
+11:12:02.036837 table@remove removed @82
+11:12:02.037005 table@remove removed @81
+11:12:02.037036 db@close closing
+11:12:02.037217 db@close done T·171.06µs

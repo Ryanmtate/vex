@@ -1,8 +1,10 @@
-=============== Oct 12, 2015 (PDT) ===============
-16:58:22.283175 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
-16:58:22.283481 db@open opening
-16:58:22.283535 journal@recovery F·1
-16:58:22.283685 journal@recovery recovering @12
-16:58:22.284997 mem@flush created L0@15 N·1 S·154B "blo..um-,v12":"blo..um-,v12"
-16:58:22.286522 db@janitor F·4 G·0
-16:58:22.286538 db@open done T·3.047296ms
+=============== Oct 15, 2015 (PDT) ===============
+11:09:19.183169 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:09:19.183444 db@open opening
+11:09:19.183512 journal@recovery F·1
+11:09:19.183670 journal@recovery recovering @55
+11:09:19.184454 mem@flush created L0@57 N·1 S·154B "blo..um-,v38":"blo..um-,v38"
+11:09:19.186122 db@janitor F·5 G·0
+11:09:19.186152 db@open done T·2.681017ms
+11:12:02.164193 db@close closing
+11:12:02.164386 db@close done T·187.881µs
